@@ -13,3 +13,6 @@
 - **데이터 분석** : 13개 핵심 변수(study_hours, class_attendance 등) 기반으로 한 다각도 통계 검정 수행
 - **최고 성능 달성** : XGBoost 를 통해 **결정계수 0.9245**기록 , **MAE 오차 2.14**기록
 
+## ✔️1. project overview
+- **주제** : 학습 패턴 데이터를 활용한 성취도 예측 및 영향요인 분석
+- **데이터셋** : [Exam score prediction dataset](https://www.kaggle.com/competitions/playground-series-s6e1/data)
