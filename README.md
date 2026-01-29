@@ -59,8 +59,8 @@
     + **성별**,**수강과정**,**학습방법**,**인터넷**
 
 ## ✔️5. 통계분석 핵심 인사이트 (연속형 + 범주형)
-- ** [Study_hours], [Attendance], [Sleep_hours] 연속형 변수 인사이트
-- ** [Internet_access], [Study_method], [Sleep_quality] 범주형 변수 인사이트
+- **[Study_hours]**, **[Attendance]**, **[Sleep_hours]** 연속형 변수 인사이트
+- **[Internet_access]**, **[Study_method]**, **[Sleep_quality]** 범주형 변수 인사이트
 - **충분한 학습 시간이 뒷받침된 상태에서 수면의 질, 효율적인 학습 방법이 결합될 때 비로소 고득점으로 이어지는 `시너지 효과`가 발생합니다**
 
 
