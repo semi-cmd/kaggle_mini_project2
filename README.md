@@ -28,10 +28,10 @@
 | :--- | :--- | :--- |
 | **id** | 각 학생의 고유 식별 번호(0, 1, 2...) | 숫자형 (제외대상) |
 | **age** | 학생의 나이 (17세 ~ 24세) | 수치형 (Continuous) |
-| **study_hours** | 하루 평균 공부 시간(0 ~ 10시간 사이) | 수치형 (Continuous) | **핵심 연속형**
-| **class_attendance** | 출석률(0 ~ 100%) | 수치형 (Continuous) | **핵심 연속형**
+| **study_hours** | 하루 평균 공부 시간(0 ~ 10시간 사이) | **수치형 (Continuous)****핵심연속형** | 
+| **class_attendance** | 출석률(0 ~ 100%) | **수치형 (Continuous)****핵심연속형** | 
 | **sleep_hours** | 수면 시간(4 ~ 10시간 사이) | 수치형 (Continuous) |
-| **exam_score** | 시험 점수(Target) | 수치형 (Continuous) | **예측 목표**
+| **exam_score** | 시험 점수(Target) | **수치형 (Continuous)****예측목표** | 
 | **gender** | 성별(female, male, other) | 범주형(Binary) |
 | **course** | 수강 과목(b.sc, bca, ba, b.com, b.tech, diploma) | 범주형(Binary) |
 | **internet_access** | 인터넷 사용 가능 여부(yes, no) | 범주형(Binary) |
@@ -39,3 +39,25 @@
 | **study_method** | 주요 학습 방법(self-study, coaching, mixed등) | 범주형 (Binary) |
 | **facility_rating** | 시설 만족도(low, medium, high) | 범주형 (Binary) |
 | **exam_difficulty** | 시험 난이도(easy, moderate, hard) | 범주형 (Binary) |
+
+ ## ✔️3. Problem Definition
+ **3.1 데이터 특성 및 분석 과제**<br>
+ - **현상** : 평균 근처에만 몰려있는 것이 아니라 점수 편차가 꽤 크다는 것을 보여줌<br>
+ - **대응** : 학생들 간 실력 차이가 존재하므로 맞춤형 학습 지원이 필요하다는 통계적 근거<br>
+
+ - **복합적 요인성**<br>
+    + **현상** : 공부 시간(주요 동인), 출석률 & 인터넷 접근성(환경적 매개요인), 수면시간(신체적 기초요인)
+    + **대응** : 변수 간 단순 선형관계를 넘어, 고차원 알고리즘 적용이 필수적<br>
+
+ **3.2 분석 전략 및 방법론**<br>
+ - **통계 분석** : 상관계수 분석, 탐색적 데이터 분석(EDA), 유의성 검정(P-value)<br>
+ - **머신 러닝** : Random forest, Hyperparameter Tuning, XGBoost, MAE<br>
+
+ 
+
+
+
+
+
+
+
